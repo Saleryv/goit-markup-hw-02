@@ -1,0 +1,113 @@
+:root {
+  --primaru-text-color: #212121;
+  --logo-color: #000000;
+  --accent-color: #2196f3;
+  --additional-text-color: #757575;
+  --address-text-color: rgba(255, 255, 255, 0.6);
+  --accent-text-color: #ffffff;
+  --background-btn-color: #f5f4fa;
+}
+.body {
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Raleway', sans-serif;
+  color: var(--primaru-text-color);
+  text-decoration: none;
+}
+
+.logo {
+  width: 145px;
+  height: 31px;
+  left: 215px;
+  top: 24px;
+
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  color: var(--logo-color);
+  text-decoration: none;
+}
+.web {
+  color: var(--accent-color);
+  width: 145px;
+  height: 31px;
+  left: 215px;
+  top: 24px;
+
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+}
+
+.page-nav-item {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.15;
+  letter-spacing: 0.02em;
+  color: var(--primaru-text-color);
+}
+.page-nav-item:hover,
+.page-nav-item:focus {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.15;
+  letter-spacing: 0.02em;
+  color: var(--accent-color);
+}
+.contact-mail {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.15;
+  letter-spacing: 0.02em;
+  color: var(--additional-text-color);
+}
+.contact-tel {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.15;
+  letter-spacing: 0.02em;
+  color: var(--additional-text-color);
+}
+
+.contact-mail:hover,
+.contact-mail:focus {
+  color: var(--accent-color);
+}
+.contact-tel:hover,
+.contact-tel:focus {
+  color: var(--accent-color);
+}
+button {
+  cursor: pointer;
+}
+.menu-btn {
+  color: var(--primaru-text-color);
+  background-color: #f5f4fa;
+}
+.menu-btn:hover,
+.menu-btn:focus {
+  color: var(--accent-text-color);
+  background-color: var(--accent-color);
+}
+.hero-btn {
+  color: var(--accent-text-color);
+  background-color: var(--accent-color);
+}
+
+.hero-btn:hover,
+.hero-btn:focus {
+  color: var(--accent-color);
+  background-color: var(--accent-text-color);
+}
